@@ -43,7 +43,7 @@ h5 {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: 900;
-  color: black;
+  color: #383838;
 }
 
 p {
@@ -124,6 +124,7 @@ button {
 
 .fa-brands {
   font-size: 80px;
+  color: #383838;
 }
 
 /* testimonials */
