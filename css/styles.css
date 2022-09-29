@@ -1,207 +1,211 @@
 body {
-  /* font-family: 'Lato', sans-serif; */
-  /* font-family: 'Titillium Web', sans-serif; */
 }
 
 h1 {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.2;
-  font-weight: 900;
-  color: white;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 900;
+    color: white;
 }
 
 h2 {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-size: 3rem;
-  line-height: 0.5;
-  color: white;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3rem;
+    line-height: 0.5;
+    color: white;
 }
 
 h3 {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-  color: #383838;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #383838;
 }
 
 h4 {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: 900;
-  color: white;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 900;
+    color: white;
 }
 
 h5 {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: 900;
-  color: #383838;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #383838;
 }
 
 p {
-  color: #8f8f8f;
-  font-family: "Lato", sans-serif;
-  /* font-family: 'Titillium Web', sans-serif; */
+    color: #8f8f8f;
+    font-family: "Lato", sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
 }
 
 button {
-  margin-top: 4px;
+    margin-top: 4px;
 }
 
 #title {
-  background-color: #383838;
+    background-color: #383838;
 }
 
 .fix-marg {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+    padding: 3% 15% 7%;
 }
 
 /* navbar */
 .navbar-brand {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: "Titillium Web", sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .navbar {
-  padding: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .nav-item {
-  padding-left: 18px;
-  padding-right: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 /* download buttons */
 .download-button {
-  margin: 5% 3% 3% 0;
+    margin: 5% 3% 3% 0;
 }
 
 .title-image {
-  width: 90%;
-  /* position: absolute; */
+    width: 90%;
+    /* position: absolute; */
 }
 
 /* features */
 
 #features {
-  background: white;
-  padding: 7% 15%;
-  position: relative;
-  z-index: 1;
+    background: white;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
-  text-align: center;
-  padding: 5%;
+    text-align: center;
+    padding: 5%;
 }
 
 .symbol-box {
-  color: #ef8172;
-  margin: 1rem;
+    color: #ef8172;
+    margin: 1rem;
 }
 
 .symbol-box:hover {
-  color: #ff4c68;
+    color: #ff4c68;
 }
 
 .fa-brands {
-  font-size: 80px;
-  color: #383838;
+    font-size: 80px;
+    color: #383838;
 }
 
 /* testimonials */
 #testimonials {
-  text-align: center;
-  background-color: black;
-  color: #fff;
+    text-align: center;
+    background-color: black;
+    color: #fff;
 }
 
 .testimonial-img {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
 #press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 .press-logo {
-  width: 15%;
-  margin: 20px 20px 20px 50px;
+    width: 15%;
+    margin: 20px 20px 20px 50px;
 }
 
 .carousel-item {
-  padding: 7% 15%;
+    padding: 7% 15%;
 }
 
 /* pricing section */
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .creditcard-img {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 5px;
-  border: 5px solid #555;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 5px;
+    border: 5px solid #555;
 }
 
 #Projects {
-  text-align: center;
-  padding: 100px;
-  background-color: #383838;
+    text-align: center;
+    padding: 100px;
+    background-color: #383838;
 }
 
 .pricing-column {
-  padding: 3% 2%;
+    padding: 3% 2%;
+}
+
+.java:hover {
+    /* transition: 0.2s; */
+    transition-duration: 0.4s;
+    padding-top: 5%;
 }
 
 @media (max-width: 1028px) {
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    width: 50%;
-    height: auto;
-  }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        height: auto;
+    }
 
-  #title {
-    text-align: center;
-  }
+    #title {
+        text-align: center;
+    }
 }
 
 .cta1 {
-  background-color: white;
-  text-align: center;
-  color: black;
-  padding: 5% 15% 7%;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 5% 15% 7%;
 }
 
 .icons {
-  text-align: center;
-  padding: 5% 5% 5%;
+    text-align: center;
+    padding: 5% 5% 5%;
 }
 
 .icons1 {
-  padding: 0px 8px 10px 8px;
+    padding: 0px 8px 10px 8px;
 }
