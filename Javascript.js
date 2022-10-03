@@ -1,22 +1,13 @@
-// const observerOptions = {
-//     root: null,
-//     rootMargin: "0px",
-//     threshold: 0.7,
-// };
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        } else {
+            entry.target.classList.remove("show");
+        }
+    });
+});
 
-// function observerCallback(entries, observer) {
-//     entries.forEach((entry) => {
-//         if (entry.isIntersecting) {
-//             // fade in observed elements that are in view
-//             entry.target.classList.replace("fadeOut", "fadeIn");
-//         } else {
-//             // fade out observed elements that are not in view
-//             entry.target.classList.replace("fadeIn", "fadeOut");
-//         }
-//     });
-// }
-
-// const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-// const fadeElms = document.querySelectorAll(".fade");
-// fadeElms.forEach((el) => observer.observe(el));
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
