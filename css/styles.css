@@ -4,7 +4,7 @@ body {
 h1 {
     /* font-family: 'Lato', sans-serif; */
     font-family: "Titillium Web", sans-serif;
-    font-size: 3.5rem;
+    font-size: 400%;
     line-height: 1.2;
     font-weight: 900;
     color: white;
@@ -216,10 +216,11 @@ a {
 }
 
 .projects-title {
-    font-size: 5rem;
+    /* font-size: 400%; */
     letter-spacing: 2px;
     margin-bottom: 50px;
 }
+
 .technology-used-caption {
     font-weight: 700;
     font-size: 30px;
@@ -247,4 +248,10 @@ a {
 }
 .logo:nth-child(4) {
     transition-delay: 400ms;
+}
+
+@media only screen and (max-width: 452px) {
+    .projects-title {
+        font-size: 300%;
+    }
 }
