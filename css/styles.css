@@ -66,7 +66,7 @@ button {
     padding: 3% 15% 7%;
 }
 
-/* navbar */
+/* -bar */
 .navbar-brand {
     /* font-family: 'Lato', sans-serif; */
     font-family: "Titillium Web", sans-serif;
@@ -128,7 +128,7 @@ button {
 /* testimonials */
 #testimonials {
     text-align: center;
-    background-color: black;
+    background-color: #143f6b;
     color: #fff;
 }
 
@@ -212,10 +212,11 @@ a {
 
 .figure-caption {
     color: white;
+    font-size: 16px;
 }
-.spacing {
+/* .spacing {
     margin-right: 70px;
-}
+} */
 .fade {
     margin: 50px;
     padding: 50px;
@@ -228,4 +229,17 @@ a {
 }
 .fadeIn {
     opacity: 1;
+}
+.projects-title {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.technology-used-caption {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.projectmargin {
+    margin-bottom: 10rem;
 }
