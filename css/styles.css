@@ -250,8 +250,13 @@ a {
     transition-delay: 400ms;
 }
 
-@media only screen and (max-width: 452px) {
+/* @media only screen and (max-width: 452px) {
     .projects-title {
         font-size: 300%;
+    }
+} */
+@media screen and (max-width: 475px) {
+    h1 {
+        font-size: 250%;
     }
 }
