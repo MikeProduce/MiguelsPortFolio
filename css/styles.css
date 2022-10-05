@@ -58,8 +58,7 @@ button {
 }
 
 #title {
-    padding-top: 3.75%;
-    padding-bottom: 3.75%;
+    padding-bottom: 7%;
     background-color: #383838;
     display: block;
     height: 100%;
@@ -108,7 +107,7 @@ button {
 
 #skills {
     background: white;
-    padding: 7% 15%;
+    padding: 15% 15%;
     position: relative;
     z-index: 1;
 }
