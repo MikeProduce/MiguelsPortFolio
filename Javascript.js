@@ -10,3 +10,7 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+const button = document.getElementById("email-button");
+button.addEventListener("click", function () {
+    location.href = "mailto:gomez_miguelomar@yahoo.com";
+});
